@@ -1,0 +1,6 @@
+char = input("Enter a character: ")
+unicode_point = ord(char)
+print("The Unicode code point for",char,"is",unicode_point)
+unicode_point = int(input("Enter a Unicode code point: "))
+character = chr(unicode_point)
+print("The character for the Unicode code point",unicode_point,"is",character)
