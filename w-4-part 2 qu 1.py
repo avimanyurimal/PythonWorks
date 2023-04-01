@@ -1,5 +1,7 @@
-sum=0
-for i in range(1,11):
-    """Print number from 1 to 10"""
-    sum+=i
-    print("The sum of 1 to 10 number",sum)
+"""To find the number is positive or Negative"""
+def number():
+    number=int(input("Enter a number:"))
+    if number>0:
+        print("The number is positive")
+    else:
+        print("The number is negative") 
