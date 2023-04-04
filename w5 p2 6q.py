@@ -4,7 +4,7 @@ zero_count = 0
 
 while True:
     num = input("Enter a number (type 'stop' to end): ")
-    if num.lower() == 'stop':
+    if num == 'stop':
         break
     
     num = int(num)
