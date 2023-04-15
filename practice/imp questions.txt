@@ -1,0 +1,1 @@
+python program to write and count a repeated word from given sentences"ram is a boy he studies in herald college kathmandu,he is very popular among students in college".
