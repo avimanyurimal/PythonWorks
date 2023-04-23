@@ -1,0 +1,7 @@
+def divide_numbers(num1, num2):
+    try:
+        result= num1/ num2
+    except ZeroDivisionError:
+        print("Error:connot divide by zero")]
+    else:
+        print(f"The result of dividing {num1} by {num2} is {result}")    
