@@ -1,0 +1,18 @@
+import csv
+
+filename = "student_data.csv"
+grades = {}
+
+with open(filename, newline='') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        name = row['Name']
+        grade = float(row['Grade'])
+        if name in grades:
+            grades[name].append(grade)
+        else:
+            grades[name] = [grade]
+
+for name, grade_list in grades.items():
+    avg_grade = sum(grade_list) / len(grade_list)
+    print(f"{name}: {avg_grade:.2f}")

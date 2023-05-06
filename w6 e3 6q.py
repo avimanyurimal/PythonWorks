@@ -10,7 +10,7 @@ def get_weekend_average_temp(weekly_temperatures):
     if len(weekend_temps) > 0:
         return sum(weekend_temps) / len(weekend_temps)
     else:
-        return None
+         None
 weekly_temperatures = {
     'Monday': 23,
     'Tuesday': 24,
